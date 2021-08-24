@@ -1,0 +1,115 @@
+* {
+    margin:0;
+    padding: 0;
+}
+ul{
+    display: inline-block;
+    padding-top: 20px;
+}
+.header-left{
+    list-style-type: none;
+    float:left;
+  }
+.header-right{
+    list-style-type: none;
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display:inline;
+    margin: 5px;
+} 
+
+}
+li:hover{
+    text-decoration: underline;
+}
+li:visited{
+    color:black;
+}
+
+a:link {
+    color: black;
+  }
+  
+
+  a:visited {
+    color: black;
+  }
+  
+main{
+    height: 670px;
+}
+.container{
+    padding-top: 150px;
+    text-align:center;
+    display:flex; 
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 35vh;
+}
+#image{
+  display: block;
+  height: auto;
+  margin: auto;
+  width: auto;
+}
+#searchbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+    border-style: solid;
+    border-width:1px;
+    border-color: #ddd;
+    width: 550px;
+    height: 44px; 
+}
+.search-input{
+    width:470px;
+    height: 44px;
+    border-radius: 30px;
+    border-style:none;
+    outline:none;
+    font-size: 17px;
+}
+.search-icon{
+    opacity: 60%;
+    padding-left: 15px;
+}
+.mic-icon{
+    max-width: 14px;
+    padding-right: 15px;
+}
+.buttons-class{
+    padding: 29px;
+}
+button{
+    width: 140px;
+    height: 30px;
+    border-radius:0;
+    background-color: #F8F9FA;
+    text-decoration: none;
+    border: none;
+    margin-right:7px;
+    font-size: 13px;
+}
+footer{
+    background-color:#ebeced;
+    height: 55px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+}
+.footer-left{
+    list-style-type: none;
+    float:left;
+  }
+.footer-right{
+    list-style-type: none;
+    float: right;
+}
